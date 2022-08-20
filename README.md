@@ -1,3 +1,6 @@
 ## Çalıştırmak için komutları çalıştırınız.
 
-```npm install\n\r node .```
+```
+npm install
+node .
+```
