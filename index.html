@@ -1,0 +1,9 @@
+<script src="scripts/stimulsoft.report.js"></script>
+<script scr="scripts/stimulsoft.viewer.js"></script>
+<script type="text/javascript">
+    var report = new Stimulsoft.Report.StiReport();
+    report.loadFile("Detayli_TR.mrt");
+    //report.loadFile("Dashboard.mrt");
+    var viewer = new Stimulsoft.Viewer.StiViewer();
+    viewer.report = report;
+</script>

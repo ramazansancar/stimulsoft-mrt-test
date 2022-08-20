@@ -1,0 +1,2638 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.0" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <ProkserNET Ref="2" type="Stimulsoft.Report.Dictionary.StiOdbcDatabase" isKey="true">
+        <Alias>ProkserNET</Alias>
+        <ConnectionString>Driver={PostgreSQL UNICODE};Server=localhost;Port=5432;Database=ProkserNET;
+Uid=USER;Pwd=PR0KSER2001;</ConnectionString>
+        <Name>ProkserNET</Name>
+      </ProkserNET>
+    </Databases>
+    <DataSources isList="true" count="4">
+      <irsaliye1 Ref="3" type="Stimulsoft.Report.Dictionary.StiOdbcSource" isKey="true">
+        <Alias>irsaliye1</Alias>
+        <Columns isList="true" count="82">
+          <value>kod,System.Int64</value>
+          <value>irsaliye_seri_no,System.String</value>
+          <value>irsaliye_no,System.Int64</value>
+          <value>tarih,System.String</value>
+          <value>saat,System.String</value>
+          <value>metrekup,System.Single</value>
+          <value>otomatik,System.String</value>
+          <value>kullanici,System.String</value>
+          <value>hazir_miktar,System.Single</value>
+          <value>geri_donen,System.Single</value>
+          <value>geri_donen_kod,System.Int64</value>
+          <value>agrega1_ist,System.Int64</value>
+          <value>agrega1_tart,System.Int64</value>
+          <value>agrega1_ver,System.Int64</value>
+          <value>agrega2_ist,System.Int64</value>
+          <value>agrega2_tart,System.Int64</value>
+          <value>agrega2_ver,System.Int64</value>
+          <value>agrega3_ist,System.Int64</value>
+          <value>agrega3_tart,System.Int64</value>
+          <value>agrega3_ver,System.Int64</value>
+          <value>agrega4_ist,System.Int64</value>
+          <value>agrega4_tart,System.Int64</value>
+          <value>agrega4_ver,System.Int64</value>
+          <value>agrega5_ist,System.Int64</value>
+          <value>agrega5_tart,System.Int64</value>
+          <value>agrega5_ver,System.Int64</value>
+          <value>agrega6_ist,System.Int64</value>
+          <value>agrega6_tart,System.Int64</value>
+          <value>agrega6_ver,System.Int64</value>
+          <value>agrega7_ist,System.Int64</value>
+          <value>agrega7_tart,System.Int64</value>
+          <value>agrega7_ver,System.Int64</value>
+          <value>agrega8_ist,System.Int64</value>
+          <value>agrega8_tart,System.Int64</value>
+          <value>agrega8_ver,System.Int64</value>
+          <value>cimento1_ist,System.Int64</value>
+          <value>cimento1_ver,System.Int64</value>
+          <value>cimento2_ist,System.Int64</value>
+          <value>cimento2_ver,System.Int64</value>
+          <value>cimento3_ist,System.Int64</value>
+          <value>cimento3_ver,System.Int64</value>
+          <value>cimento4_ist,System.Int64</value>
+          <value>cimento4_ver,System.Int64</value>
+          <value>su1_ist,System.Int64</value>
+          <value>su1_tart,System.Int64</value>
+          <value>su1_ver,System.Int64</value>
+          <value>su2_ist,System.Int64</value>
+          <value>su2_tart,System.Int64</value>
+          <value>su2_ver,System.Int64</value>
+          <value>katki1_ist,System.Single</value>
+          <value>katki1_ver,System.Single</value>
+          <value>katki2_ist,System.Single</value>
+          <value>katki2_ver,System.Single</value>
+          <value>katki3_ist,System.Single</value>
+          <value>katki3_ver,System.Single</value>
+          <value>katki4_ist,System.Single</value>
+          <value>katki4_ver,System.Single</value>
+          <value>silo1ad,System.String</value>
+          <value>silo2ad,System.String</value>
+          <value>silo3ad,System.String</value>
+          <value>silo4ad,System.String</value>
+          <value>silo5ad,System.String</value>
+          <value>silo6ad,System.String</value>
+          <value>silo7ad,System.String</value>
+          <value>silo8ad,System.String</value>
+          <value>silo9ad,System.String</value>
+          <value>silo10ad,System.String</value>
+          <value>silo11ad,System.String</value>
+          <value>silo12ad,System.String</value>
+          <value>silo13ad,System.String</value>
+          <value>silo14ad,System.String</value>
+          <value>silo15ad,System.String</value>
+          <value>silo16ad,System.String</value>
+          <value>silo17ad,System.String</value>
+          <value>silo18ad,System.String</value>
+          <value>baslangic_saati,System.DateTime</value>
+          <value>bitis_saati,System.DateTime</value>
+          <value>extra1_ist,System.Single</value>
+          <value>extra1_ver,System.Single</value>
+          <value>silo19ad,System.String</value>
+          <value>kamyon_km,System.Int64</value>
+          <value>santral_id,System.Int32</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>irsaliye1</Name>
+        <NameInSource>ProkserNET</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from irsaliye1 where santral_id=1</SqlCommand>
+      </irsaliye1>
+      <irsaliye2 Ref="4" type="Stimulsoft.Report.Dictionary.StiOdbcSource" isKey="true">
+        <Alias>irsaliye2</Alias>
+        <Columns isList="true" count="40">
+          <value>recete_kod,System.Int64</value>
+          <value>recete_index,System.String</value>
+          <value>recete_ad,System.String</value>
+          <value>recete_slump,System.String</value>
+          <value>recete_granulite,System.String</value>
+          <value>recete_mukavemet,System.String</value>
+          <value>recete_aciklama1,System.String</value>
+          <value>recete_aciklama2,System.String</value>
+          <value>recete_aciklama3,System.String</value>
+          <value>recete_aciklama4,System.String</value>
+          <value>recete_sucimorani,System.Single</value>
+          <value>musteri_kod,System.Int64</value>
+          <value>musteri_index,System.String</value>
+          <value>musteri_ad,System.String</value>
+          <value>musteri_telefon,System.String</value>
+          <value>musteri_faks,System.String</value>
+          <value>musteri_adres,System.String</value>
+          <value>musteri_vergi_dairesi,System.String</value>
+          <value>musteri_vergi_no,System.String</value>
+          <value>musteri_ilce,System.String</value>
+          <value>musteri_sehir,System.String</value>
+          <value>santiye_kod,System.Int64</value>
+          <value>santiye_ad,System.String</value>
+          <value>santiye_telefon,System.String</value>
+          <value>santiye_faks,System.String</value>
+          <value>santiye_adres,System.String</value>
+          <value>santiye_ilgili,System.String</value>
+          <value>santiye_uzaklik,System.String</value>
+          <value>santiye_ilce,System.String</value>
+          <value>santiye_sehir,System.String</value>
+          <value>kamyon_kod,System.Int64</value>
+          <value>kamyon_plk,System.String</value>
+          <value>kamyon_kapasite,System.Single</value>
+          <value>surucu_kod,System.Int64</value>
+          <value>surucu_ad,System.String</value>
+          <value>hizmet1_kod,System.Int64</value>
+          <value>hizmet1_ad,System.String</value>
+          <value>hizmet2_kod,System.Int64</value>
+          <value>hizmet2_ad,System.String</value>
+          <value>santral_id,System.Int32</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>irsaliye2</Name>
+        <NameInSource>ProkserNET</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from irsaliye2 where santral_id=1</SqlCommand>
+      </irsaliye2>
+      <irsaliye_ayar Ref="5" type="Stimulsoft.Report.Dictionary.StiOdbcSource" isKey="true">
+        <Alias>irsaliye_ayar</Alias>
+        <Columns isList="true" count="18">
+          <value>kayittan_basim,System.String</value>
+          <value>uretim_sonu,System.String</value>
+          <value>aciklama1,System.String</value>
+          <value>aciklama2,System.String</value>
+          <value>aciklama3,System.String</value>
+          <value>aciklama4,System.String</value>
+          <value>aciklama5,System.String</value>
+          <value>aciklama6,System.String</value>
+          <value>aciklama7,System.String</value>
+          <value>aciklama8,System.String</value>
+          <value>aciklama9,System.String</value>
+          <value>aciklama10,System.String</value>
+          <value>uretim_basi,System.String</value>
+          <value>kayittan_basim2,System.String</value>
+          <value>uretim_sonu2,System.String</value>
+          <value>uretim_basi2,System.String</value>
+          <value>printer2,System.String</value>
+          <value>printer1,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>irsaliye_ayar</Name>
+        <NameInSource>ProkserNET</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from irsaliye_ayar limit 1</SqlCommand>
+      </irsaliye_ayar>
+      <tesis Ref="6" type="Stimulsoft.Report.Dictionary.StiOdbcSource" isKey="true">
+        <Alias>tesis</Alias>
+        <Columns isList="true" count="26">
+          <value>kod,System.Int64</value>
+          <value>ad,System.String</value>
+          <value>irsaliye_seri_no,System.String</value>
+          <value>irsaliye_no,System.Int64</value>
+          <value>irsaliye_basim_onay,System.String</value>
+          <value>ses_onay,System.String</value>
+          <value>agrega_tolerans,System.Decimal</value>
+          <value>cimento_tolerans,System.Decimal</value>
+          <value>su1_tolerans,System.Decimal</value>
+          <value>su2_tolerans,System.Decimal</value>
+          <value>katki1_tolerans,System.Decimal</value>
+          <value>katki2_tolerans,System.Decimal</value>
+          <value>kul_tolerans,System.Decimal</value>
+          <value>buz_tolerans,System.Decimal</value>
+          <value>boya_tolerans,System.Decimal</value>
+          <value>toz_tolerans,System.Decimal</value>
+          <value>yedek_tolerans,System.Decimal</value>
+          <value>mikser1_kapasite,System.Decimal</value>
+          <value>mikser2_kapasite,System.Decimal</value>
+          <value>checkbox3,System.String</value>
+          <value>checkbox4,System.String</value>
+          <value>checkbox5,System.String</value>
+          <value>checkbox6,System.String</value>
+          <value>checkbox7,System.String</value>
+          <value>checkbox8,System.String</value>
+          <value>santral_id,System.Int32</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>tesis</Name>
+        <NameInSource>ProkserNET</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from tesis limit 1</SqlCommand>
+      </tesis>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="1">
+      <value>,counter,counter,System.Decimal,_x0030_,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="7" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="141">
+        <Text7 Ref="8" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>16.6,0,3.1,0.4</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>0ab2c631ebd14b87ab56034b33dd5e38</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text7</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.tarih} {irsaliye1.saat}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text7>
+        <Text26 Ref="9" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.3,13.3,4.6,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>b116a17d12404dbea26e1f71c2e42c63</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text26</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.kullanici}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>DataColumn</Type>
+        </Text26>
+        <Text27 Ref="10" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>11.9,13.3,5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>367d6188796b4b1a89305e80400d96c3</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text27</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye2.surucu_ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>DataColumn</Type>
+        </Text27>
+        <Text28 Ref="11" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.4,0.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>4e9c0eaa259b4807a010b21256c22320</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text28</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Üretim No:</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text28>
+        <Text29 Ref="12" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.4,1.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>5d7e4430769f4aca88378c33bd4b2fea</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text29</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Marka:</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text29>
+        <Text30 Ref="13" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.4,1.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>faf9f19c292545bdb91c7cd169abec1d</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text30</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Metreküp:</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text30>
+        <Text31 Ref="14" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.4,2.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>69546c2ed841411482f6c6f177d72fa2</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text31</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Müşteri Adı:</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text31>
+        <Text32 Ref="15" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.4,2.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>4b67ac05061441a4a2257f9db3af0da0</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text32</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Müşteri V.D:</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text32>
+        <Text33 Ref="16" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.4,3.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>f7078645c3ff4479875a73ba1789e9a7</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text33</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Şantiye Adı:</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text33>
+        <Text34 Ref="17" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.4,3.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>7f8440063a6942a1a5a0642748555130</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text34</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Şantiye Adresi:</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text34>
+        <Text35 Ref="18" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.4,4.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>dfdfaf6e9404413abdd91761df751350</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text35</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Sürücü Adı:</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text35>
+        <Text36 Ref="19" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.4,0.7,7,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>32c0d49e4e7f453ab2bf7620172f239c</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text36</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.kod}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>DataColumn</Type>
+        </Text36>
+        <Text37 Ref="20" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.4,1.2,7,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>c9fc5a60f3f84a4891244f63503f1021</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text37</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye2.recete_ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>DataColumn</Type>
+        </Text37>
+        <Text38 Ref="21" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.4,1.7,7,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>f20961c0d2f445b1a821d437005999d5</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text38</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.metrekup}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="22" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>DataColumn</Type>
+        </Text38>
+        <Text39 Ref="23" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.4,2.2,7,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>6fde935474984815a27ffcee44e44bc0</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text39</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye2.musteri_ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>DataColumn</Type>
+        </Text39>
+        <Text40 Ref="24" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.4,2.7,7,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>0d09f3076c9a43338a77a7f45c0e1a41</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text40</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye2.musteri_vergi_dairesi}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>DataColumn</Type>
+        </Text40>
+        <Text41 Ref="25" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.4,3.2,7,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>1a5c981c915f42379db596921da75c24</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text41</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye2.santiye_ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>DataColumn</Type>
+        </Text41>
+        <Text42 Ref="26" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.4,3.7,7,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>57afb66e87114ea3ba1f36bfd00d095b</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text42</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye2.santiye_adres}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>DataColumn</Type>
+        </Text42>
+        <Text43 Ref="27" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.4,4.2,7,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>3c288af65d62444c9d2212a4b9ed9973</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text43</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye2.surucu_ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>DataColumn</Type>
+        </Text43>
+        <Text44 Ref="28" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,1.7,3.6,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>a68942a5837b4e2d9e9431fadda0b245</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text44</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Müşteri Adresi:</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text44>
+        <Text45 Ref="29" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,2.7,3.6,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>73e0d20eaf3b4e2fa20021fde01abb5c</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text45</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Müşteri V.No:</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text45>
+        <Text46 Ref="30" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,3.2,3.6,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>8f421e1e17194cf5b041cda65af06700</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text46</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Döküm Şekli:</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text46>
+        <Text47 Ref="31" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,2.1,6.1,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>b3253da58c234f40bccf2267996092f5</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text47</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye2.musteri_adres}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
+        </Text47>
+        <Text48 Ref="32" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,2.7,6.1,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>b76c3fb266744604a3dd31756b1ff6b9</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text48</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye2.musteri_vergi_no}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>DataColumn</Type>
+        </Text48>
+        <Text49 Ref="33" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,3.2,6.1,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>5732f93451394d9bab182498afe4dfbc</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text49</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye2.hizmet1_ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>DataColumn</Type>
+        </Text49>
+        <Text1 Ref="34" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,3.7,3.6,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>bb9587a26d3341c894a7a8360e9f85e4</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Kamyon Plaka:</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text1>
+        <Text2 Ref="35" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,3.7,6.1,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>4721665f71714b5a9d45f781b368fba2</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text2</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye2.kamyon_plk}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>DataColumn</Type>
+        </Text2>
+        <Text3 Ref="36" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,0.7,2.9,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>6a39dec0f64841e2ac4d39d29238dd83</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text3</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>İrsaliye No:</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text3>
+        <Text4 Ref="37" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,0.7,2.8,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>5171507f72cf47a59c345f7a8e808364</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text4</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.irsaliye_seri_no}{irsaliye1.irsaliye_no}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text4>
+        <Text5 Ref="38" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,4.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>d887e08afaa44b17894355284073201c</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text5</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Malzeme Adları</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text5>
+        <Text6 Ref="39" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.1,4.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>cd711c35f3f048ecb935d8a11e331135</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text6</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Reçete İstenen</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text6>
+        <Text8 Ref="40" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,4.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>40da4e22f0864854b90da81487fbfb6d</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text8</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Toplam İstenen</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text8>
+        <Text9 Ref="41" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,4.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>8407a6d999994f9885a9dd539655db56</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text9</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Nemli İstenen</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text9>
+        <Text10 Ref="42" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,4.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>294991d462b145ee8345fb275af643bf</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text10</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Toplam Verilen</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text10>
+        <Text11 Ref="43" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>15.1,4.7,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>ec7ea524e9c54e8487aa2014e09cc26f</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text11</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Fark</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text11>
+        <Text12 Ref="44" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>17.6,4.7,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>122098d1cef449fa998aac890dc5f90e</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text12</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Nem Oranı</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text12>
+        <Text13 Ref="45" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,5.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>5787735c33944e679f5a3add1c850513</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text13</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.silo1ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
+        </Text13>
+        <Text14 Ref="46" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,5.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>2d0dedff865546389e2c5847fa1e5898</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text14</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.silo2ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text14>
+        <Text15 Ref="47" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,6.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>3b09f757f70d43e698ae3d0019d67ba9</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text15</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.silo3ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
+        </Text15>
+        <Text16 Ref="48" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,6.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>068a23df950b4596bffc8656244504f1</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text16</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.silo4ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
+        </Text16>
+        <Text17 Ref="49" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,7.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>cb3c37bc47004514b34d153dff8c08c4</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text17</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.silo9ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
+        </Text17>
+        <Text18 Ref="50" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,8.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>75cab6dd47104d10bc08e91d19720133</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text18</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.silo10ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
+        </Text18>
+        <Text19 Ref="51" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,8.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>f6c5addb63e44fbfa3623dc5049ff3fc</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text19</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.silo11ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
+        </Text19>
+        <Text20 Ref="52" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,9.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>e8099db84ef74bf698f5a41b15954e8e</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text20</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.silo13ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
+        </Text20>
+        <Text21 Ref="53" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,10.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>60633bc69024488ca7e60994e5518702</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text21</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.silo15ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
+        </Text21>
+        <Text22 Ref="54" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,10.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>f7f3cd394c8347868e802bec033347e7</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text22</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.silo16ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
+        </Text22>
+        <Text23 Ref="55" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,11.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>f3857fa8b1a74834aa1ebacfec1a75b9</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text23</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.silo17ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
+        </Text23>
+        <Text24 Ref="56" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,11.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>05b28eb4bfff4d5b8a522721e1c64c74</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text24</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.silo18ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
+        </Text24>
+        <Text25 Ref="57" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,7.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>1e453e79054f4a22aae875c5aa217541</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text25</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.silo5ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
+        </Text25>
+        <Text50 Ref="58" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,9.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>2b01ce756b4b410d882bab3f93ef5e00</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text50</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.silo12ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
+        </Text50>
+        <Text51 Ref="59" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,12.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>bbfbf65eb7504bbc9ebe3aa01e58a9ca</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text51</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.silo19ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
+        </Text51>
+        <Text52 Ref="60" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0,19.75,0.7</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <DockStyle>Top</DockStyle>
+          <Font>Arial,14</Font>
+          <Guid>714f85f79b4a4ba3bfc0a87fd73e61c6</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text52</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{tesis.ad}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>DataColumn</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text52>
+        <Text53 Ref="61" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.1,5.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>0f71d15db2444805a6a3088d866f12de</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text53</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega1_ist/irsaliye1.metrekup}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text53>
+        <Text54 Ref="62" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.1,5.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>ea2606d209604546aa9e1f1496c74201</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text54</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega2_ist/irsaliye1.metrekup}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text54>
+        <Text55 Ref="63" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.1,6.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>469cb41a21034e1093e902762adb7cf5</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text55</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega3_ist/irsaliye1.metrekup}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text55>
+        <Text56 Ref="64" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.1,6.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>f2c594fd34db47f6970b0a55532e0ec9</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text56</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega4_ist/irsaliye1.metrekup}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text56>
+        <Text57 Ref="65" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.1,7.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>48694996d4b84a1287659d55b88a081c</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text57</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega5_ist/irsaliye1.metrekup}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text57>
+        <Text58 Ref="66" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.1,7.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>6257ac8a819d4b25b81bb7930b18eb87</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text58</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento1_ist/irsaliye1.metrekup}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text58>
+        <Text59 Ref="67" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.1,8.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>c3dc17b80f6e4c12ae5918e580398b63</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text59</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento2_ist/irsaliye1.metrekup}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text59>
+        <Text60 Ref="68" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.1,8.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>4886152abef94d3f9093dc9093b14e73</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text60</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento3_ist/irsaliye1.metrekup}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text60>
+        <Text61 Ref="69" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.1,9.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>08528ee1ce9842d2ae22d71564f6f0dd</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text61</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento4_ist/irsaliye1.metrekup}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text61>
+        <Text62 Ref="70" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.1,9.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>113dcb055a814bb2bd2105e315303759</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text62</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.su1_ist/irsaliye1.metrekup}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text62>
+        <Text63 Ref="71" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.1,10.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>592956950bf446dba01d461331460627</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text63</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.katki2_ist/irsaliye1.metrekup}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="72" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text63>
+        <Text64 Ref="73" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.1,11.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>eca8269f543e489ca7279ec38788c7a3</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text64</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.katki3_ist/irsaliye1.metrekup}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="74" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text64>
+        <Text65 Ref="75" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.1,11.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>56bbb5a05798411db00fb8538f66fe71</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text65</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.katki4_ist/irsaliye1.metrekup}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="76" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text65>
+        <Text66 Ref="77" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.1,10.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>74657b2a64074c1787e1b7aeb06b19fe</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text66</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.katki1_ist/irsaliye1.metrekup}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="78" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text66>
+        <Text67 Ref="79" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.1,12.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>f0e645cf075d45259860f03d2fa164a7</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text67</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.extra1_ist/irsaliye1.metrekup}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="80" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text67>
+        <Text68 Ref="81" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,5.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>973f5aa8d9f94ea0870defd4ee8ecd57</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text68</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega1_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text68>
+        <Text69 Ref="82" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,5.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>f1e3518f988d40d998ba8e0d517e6907</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text69</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega2_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text69>
+        <Text70 Ref="83" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,6.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>d1b4fde058b64954858dfa630de817da</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text70</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega3_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text70>
+        <Text71 Ref="84" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,6.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>51fc4a759f614a57bc38a871f761cf31</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text71</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega4_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text71>
+        <Text72 Ref="85" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,7.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>c0c09bae483d4e219d165045aa6b2d47</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text72</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega5_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text72>
+        <Text73 Ref="86" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,7.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>fcbefb6985ef488cb7570a351fffa8b5</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text73</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento1_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text73>
+        <Text74 Ref="87" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,8.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>6d8ad466686445d39f8f88ef222cb2ab</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text74</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento2_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text74>
+        <Text75 Ref="88" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,8.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>4b2e0bba47814c9689295215f40d9843</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text75</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento3_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text75>
+        <Text76 Ref="89" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,9.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>f7684401bcdc44a9b8c1819aecfba811</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text76</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento4_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text76>
+        <Text77 Ref="90" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,9.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>ef243f02a4514286b732a7a1d16635d9</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text77</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.su1_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text77>
+        <Text78 Ref="91" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,10.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>7408cafa5a4346a78e6fc87da77043f7</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text78</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.katki2_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="92" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text78>
+        <Text79 Ref="93" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,11.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>b23586a8c2d841dc8859ca0e7d60a228</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text79</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.katki3_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="94" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text79>
+        <Text80 Ref="95" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,11.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>ea809711d05b402cbb7fbe0ef2fa7039</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text80</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.katki4_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="96" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text80>
+        <Text81 Ref="97" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,10.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>023d485c3b5d4a09993dda6d76a6c5b6</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text81</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.katki1_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="98" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text81>
+        <Text82 Ref="99" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,12.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>c741b27e20ff45dea6096d251ad85dcc</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text82</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.extra1_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="100" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text82>
+        <Text83 Ref="101" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,5.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>593df49706564cb3b5afab285475017b</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text83</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega1_tart}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text83>
+        <Text84 Ref="102" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,5.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>836a01c9a2264b809bcf44e8f9490a6c</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text84</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega2_tart}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text84>
+        <Text85 Ref="103" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,6.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>0e305343de8b45ec82bfc233c00214ca</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text85</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega3_tart}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text85>
+        <Text86 Ref="104" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,6.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>4c4936c44a044597a5397969e4a5df6f</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text86</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega4_tart}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text86>
+        <Text87 Ref="105" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,7.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>0518845bd8474971b6418d37ebb1d6cc</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text87</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega5_tart}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text87>
+        <Text88 Ref="106" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,7.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>4f56146028224601bcef2eae02385020</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text88</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento1_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text88>
+        <Text89 Ref="107" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,8.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>e6c7f31a08db4ceeb44a9ca45163e61a</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text89</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento2_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text89>
+        <Text90 Ref="108" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,8.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>3a512d9f92b34f6c8e5e1c2543641b5f</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text90</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento3_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text90>
+        <Text91 Ref="109" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,9.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>fb2febc1d9b541068d3649ef3cb3ca06</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text91</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento4_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text91>
+        <Text92 Ref="110" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,9.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>a26ec0039f3148ce86a569ac09526f13</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text92</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.su1_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text92>
+        <Text93 Ref="111" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,10.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>a044dc8c5416454d84ec61193af9c79f</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text93</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.katki2_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="112" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text93>
+        <Text94 Ref="113" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,11.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>7354759a98f14a8baa50e940406c14af</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text94</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.katki3_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="114" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text94>
+        <Text95 Ref="115" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,11.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>db087fd17b774d95967fffc626e85471</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text95</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.katki4_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="116" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text95>
+        <Text96 Ref="117" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,10.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>6d97ecf2a2f14aa7b9580d84514d0c0b</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text96</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.katki1_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="118" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text96>
+        <Text97 Ref="119" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,12.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>ed99460df15b4f0ab6a867166fe3aad9</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text97</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.extra1_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="120" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text97>
+        <Text98 Ref="121" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,5.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>831ed2264889448b8e2ceb2c59941e5f</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text98</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega1_ver}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text98>
+        <Text99 Ref="122" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,5.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>f6d7b7afa24d4ae688b97bf46b25cdae</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text99</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega2_ver}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text99>
+        <Text100 Ref="123" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,6.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>0dd41779c6024cb3b1e824edc9dbe3f7</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text100</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega3_ver}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text100>
+        <Text101 Ref="124" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,6.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>c377a96b29bb4365a91c2ec5855b3cbb</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text101</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega4_ver}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text101>
+        <Text102 Ref="125" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,7.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>647a2c7ed9ee43e1b640f2431439ab23</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text102</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega5_ver}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text102>
+        <Text103 Ref="126" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,7.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>ad3d7fcceec64d73a9e3b770d11ccb32</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text103</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento1_ver}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text103>
+        <Text104 Ref="127" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,8.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>a20bf32a25444a148bca5072cd72d01e</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text104</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento2_ver}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text104>
+        <Text105 Ref="128" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,8.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>e28a210045fb45a1969dbbfdd7ffaa35</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text105</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento3_ver}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text105>
+        <Text106 Ref="129" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,9.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>e43c6d73017d43a6b1497745194d6764</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text106</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento4_ver}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text106>
+        <Text107 Ref="130" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,9.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>17df784fca6b4c01a5b73d6ed8ed10ce</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text107</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.su1_ver}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text107>
+        <Text108 Ref="131" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,10.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>2dbc099729db498c80e3c693db0dcfa2</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text108</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.katki2_ver}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="132" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text108>
+        <Text109 Ref="133" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,11.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>525744c16b7940c2ba29ad66481c0230</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text109</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.katki3_ver}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="134" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text109>
+        <Text110 Ref="135" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,11.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>0846dfde0e134f8889c3112faa3cf894</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text110</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.katki4_ver}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="136" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text110>
+        <Text111 Ref="137" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,10.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>9e40efc40dc94246bdcc5f9aa21228de</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text111</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.katki1_ver}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="138" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text111>
+        <Text112 Ref="139" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,12.2,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>a6946edadbcf46a48590ec08b9152cc6</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text112</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.extra1_ver}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="140" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text112>
+        <Text113 Ref="141" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>15.1,5.2,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>d91f4620cabb45e589308cb720fb79d9</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text113</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega1_ver-irsaliye1.agrega1_tart}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text113>
+        <Text114 Ref="142" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>15.1,5.7,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>e25615ff89cd4ba79fca326c6926d910</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text114</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega2_ver-irsaliye1.agrega2_tart}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text114>
+        <Text115 Ref="143" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>15.1,6.2,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>4d58497aa3db41a2bb134bffdf369791</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text115</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega3_ver-irsaliye1.agrega3_tart}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text115>
+        <Text116 Ref="144" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>15.1,6.7,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>15f99ea887d74a4d8dd7d15a5ca5b65e</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text116</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega4_ver-irsaliye1.agrega4_tart}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text116>
+        <Text117 Ref="145" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>15.1,7.2,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>49ba4ee915474a3dbed7abc1a2d3e25f</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text117</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega5_ver-irsaliye1.agrega5_tart}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text117>
+        <Text118 Ref="146" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>15.1,7.7,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>9cdec14d7d4b423eaf33be28058d3c43</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text118</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento1_ver-irsaliye1.cimento1_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text118>
+        <Text119 Ref="147" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>15.1,8.2,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>daa25b0678a84d62a1bacb33ab630f13</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text119</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento2_ver-irsaliye1.cimento2_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text119>
+        <Text120 Ref="148" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>15.1,8.7,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>e8670d134582497384ac27f18102578a</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text120</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento3_ver-irsaliye1.cimento3_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text120>
+        <Text121 Ref="149" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>15.1,9.2,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>44b6a201c2c240cd9aa4dacdd9081f96</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text121</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.cimento4_ver-irsaliye1.cimento4_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text121>
+        <Text122 Ref="150" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>15.1,9.7,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>011b19ea65b1477396e6d29dbebb1914</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text122</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.su1_ver-irsaliye1.su1_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text122>
+        <Text123 Ref="151" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>15.1,10.7,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>fa595fa0fb884c01b81b722ab97636bb</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text123</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{Format("{0:N2}", irsaliye1.katki2_ver-irsaliye1.katki2_ist)}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="152" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text123>
+        <Text124 Ref="153" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>15.1,11.2,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>8d0725146d934491acd3575516c183f2</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text124</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{Format("{0:N2}",irsaliye1.katki3_ver-irsaliye1.katki3_ist)}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="154" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text124>
+        <Text125 Ref="155" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>15.1,11.7,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>2fbb3d03b68d465d8bb7006d0b737f90</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text125</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{Format("{0:N2}",irsaliye1.katki4_ver-irsaliye1.katki4_ist)}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="156" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text125>
+        <Text126 Ref="157" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>15.1,10.2,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>2f6fb32ab095429e8b40e1239b4d121b</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text126</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{Format("{0:N2}", irsaliye1.katki1_ver-irsaliye1.katki1_ist)}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="158" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text126>
+        <Text127 Ref="159" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>15.1,12.2,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>e471664ae12e4cfb8b64da1b165dea42</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text127</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{Format("{0:N2}",irsaliye1.extra1_ver-irsaliye1.extra1_ist)}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="160" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text127>
+        <Text128 Ref="161" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>17.6,5.2,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>1fe91e61a39b4deaa6d84539fd69d680</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text128</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{Format("{0:N2}", ((irsaliye1.agrega1_tart-irsaliye1.agrega1_ist)/irsaliye1.agrega1_ist) * 100)}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text128>
+        <Text129 Ref="162" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>17.6,5.7,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>8cdd08fb0e33470e8e6bb79423c04bfa</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text129</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{Format("{0:N2}", ((irsaliye1.agrega2_tart-irsaliye1.agrega2_ist)/irsaliye1.agrega2_ist) * 100)}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text129>
+        <Text130 Ref="163" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>17.6,6.2,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>de6fdef9f9534ecd9555ad2d084e5fc9</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text130</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{Format("{0:N2}", ((irsaliye1.agrega3_tart-irsaliye1.agrega3_ist)/irsaliye1.agrega3_ist) * 100)}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text130>
+        <Text131 Ref="164" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>17.6,6.7,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>9f34fa619e8e47e9971bddfdd420f089</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text131</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{Format("{0:N2}", ((irsaliye1.agrega4_tart-irsaliye1.agrega4_ist)/irsaliye1.agrega4_ist) * 100)}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text131>
+        <Text132 Ref="165" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>17.6,7.2,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>fd9e2d7066e24561abee6357fd3d1908</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text132</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{Format("{0:N2}", ((irsaliye1.agrega5_tart-irsaliye1.agrega5_ist)/irsaliye1.agrega5_ist) * 100)}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+        </Text132>
+        <Text133 Ref="166" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,13.3,2,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>07d018329d774f908b1e9f3e8941a4cf</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text133</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Operatör:</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text133>
+        <Text134 Ref="167" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.3,13.3,2.6,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>0eb04351a1314a2f8b3c9c2ddab5fbf1</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text134</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>Teslim Eden:</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+        </Text134>
+        <Text135 Ref="168" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,12.7,3,0.4</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10,Bold</Font>
+          <Guid>680e06364a3447a3822729e8660f1c68</Guid>
+          <HorAlignment>Right</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text135</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>TOPLAMLAR:</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text135>
+        <Text136 Ref="169" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.1,12.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>96fc5d775f784ee0a528c8d79ea34c52</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text136</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{(irsaliye1.agrega1_ist+irsaliye1.agrega2_ist+irsaliye1.agrega3_ist+irsaliye1.agrega4_ist+irsaliye1.agrega5_ist+irsaliye1.cimento1_ist+irsaliye1.cimento2_ist+irsaliye1.cimento3_ist+irsaliye1.cimento4_ist+irsaliye1.su1_ist+irsaliye1.katki1_ist+irsaliye1.katki2_ist+irsaliye1.katki3_ist+irsaliye1.katki4_ist+irsaliye1.extra1_ist)/(irsaliye1.metrekup)}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="170" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text136>
+        <Text137 Ref="171" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.1,12.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>3278ff75700f46319cc2fb7fe0c84d99</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text137</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega1_ist+irsaliye1.agrega2_ist+irsaliye1.agrega3_ist+irsaliye1.agrega4_ist+irsaliye1.agrega5_ist+irsaliye1.cimento1_ist+irsaliye1.cimento2_ist+irsaliye1.cimento3_ist+irsaliye1.cimento4_ist+irsaliye1.su1_ist+irsaliye1.katki1_ist+irsaliye1.katki2_ist+irsaliye1.katki3_ist+irsaliye1.katki4_ist+irsaliye1.extra1_ist}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="172" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text137>
+        <Text138 Ref="173" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.1,12.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>34848c696a8040118fce32fe4a18bd23</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text138</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega1_tart+irsaliye1.agrega2_tart+irsaliye1.agrega3_tart+irsaliye1.agrega4_tart+irsaliye1.agrega5_tart+irsaliye1.cimento1_ist+irsaliye1.cimento2_ist+irsaliye1.cimento3_ist+irsaliye1.cimento4_ist+irsaliye1.su1_ist+irsaliye1.katki1_ist+irsaliye1.katki2_ist+irsaliye1.katki3_ist+irsaliye1.katki4_ist+irsaliye1.extra1_ist}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="174" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text138>
+        <Text139 Ref="175" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.1,12.7,3,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>849be787a7df4022a684f5827c5bcfc0</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text139</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{irsaliye1.agrega1_ver+irsaliye1.agrega2_ver+irsaliye1.agrega3_ver+irsaliye1.agrega4_ver+irsaliye1.agrega5_ver+irsaliye1.cimento1_ver+irsaliye1.cimento2_ver+irsaliye1.cimento3_ver+irsaliye1.cimento4_ver+irsaliye1.su1_ver+irsaliye1.katki1_ver+irsaliye1.katki2_ver+irsaliye1.katki3_ver+irsaliye1.katki4_ver+irsaliye1.extra1_ver}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="176" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text139>
+        <Text140 Ref="177" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>15.1,12.7,2.5,0.5</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Guid>b463b4a200a04e0a894a46f5326cf432</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text140</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>{Format("{0:N2}",(irsaliye1.agrega2_ver+irsaliye1.agrega3_ver+irsaliye1.agrega4_ver+irsaliye1.agrega5_ver+irsaliye1.agrega6_ver+irsaliye1.agrega7_ver+irsaliye1.cimento1_ver+irsaliye1.cimento2_ver+irsaliye1.cimento3_ver+irsaliye1.cimento4_ver+irsaliye1.su1_ver+irsaliye1.katki1_ver+irsaliye1.katki2_ver+irsaliye1.katki3_ver+irsaliye1.katki4_ver+irsaliye1.extra1_ver)-(irsaliye1.agrega2_tart+irsaliye1.agrega3_tart+irsaliye1.agrega4_tart+irsaliye1.agrega5_tart+irsaliye1.agrega6_tart+irsaliye1.agrega7_tart+irsaliye1.cimento1_ist+irsaliye1.cimento2_ist+irsaliye1.cimento3_ist+irsaliye1.cimento4_ist+irsaliye1.su1_tart+irsaliye1.katki1_ist+irsaliye1.katki2_ist+irsaliye1.katki3_ist+irsaliye1.katki4_ist+irsaliye1.extra1_ist))}
+</Text>
+          <TextBrush>Black</TextBrush>
+          <TextFormat Ref="178" type="NumberFormat" isKey="true">
+            <DecimalSeparator>,</DecimalSeparator>
+            <GroupSeparator>.</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Type>Expression</Type>
+        </Text140>
+        <BarCode1 Ref="179" type="Stimulsoft.Report.BarCodes.StiBarCode" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <BarCodeType Ref="180" type="Stimulsoft.Report.BarCodes.StiQRCodeBarCodeType" isKey="true" />
+          <ClientRectangle>13.6,0.7,6.2,6.5</ClientRectangle>
+          <Code>{irsaliye2.musteri_ad}{irsaliye2.recete_ad}{irsaliye2.recete_slump}{irsaliye2.recete_granulite}{irsaliye2.recete_mukavemet}{irsaliye2.kamyon_plk}{irsaliye2.hizmet1_ad}</Code>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,8,Bold,Pixel</Font>
+          <ForeColor>Black</ForeColor>
+          <HorAlignment>Right</HorAlignment>
+          <Name>BarCode1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+        </BarCode1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>f6cf43cc172e404c8d9487e7737d71df</Guid>
+      <Margins>0.6,0.6,0.6,0.6</Margins>
+      <Name>Page1</Name>
+      <PageHeight>15</PageHeight>
+      <PageWidth>20.95</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="181" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="182" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Irsaliye</ReportAlias>
+  <ReportChanged>3/25/2020 3:35:44 PM</ReportChanged>
+  <ReportCreated>3/31/2011 4:07:16 PM</ReportCreated>
+  <ReportFile>C:\_ProkserNET_SOURCE\delivery_note\TR\Detayli_TR.mrt</ReportFile>
+  <ReportGuid>3b13169866d2457ca7319a189b2550e6</ReportGuid>
+  <ReportName>Irsaliye</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2011.1.910</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Irsaliye : Stimulsoft.Report.StiReport
+    {
+        public Irsaliye()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+        #endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>
